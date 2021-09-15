@@ -40,7 +40,7 @@ function App() {
           <Route path="/login">
            <Login/>
           </Route>
-          <Route exact path="/">
+          <Route exact path="/home">
             <Header/>
             <Home/>
           </Route>
