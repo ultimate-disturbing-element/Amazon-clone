@@ -30,7 +30,7 @@ function App() {
    }
   }, [])
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router basename={"Amazon-clone"}>
       <div className="app">
         <Switch>
           <Route path="/checkout">

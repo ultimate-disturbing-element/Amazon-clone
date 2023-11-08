@@ -1,12 +1,12 @@
 import firebase from 'firebase';
  const firebaseConfig = {
-  apiKey:process.env.REACT_APP_API_KEY,
-  authDomain: process.env.REACT_APP_AUTH_DOMAIN,
-  projectId: process.env.REACT_APP_PROJECT_ID,
-  storageBucket: process.env.REACT_APP_STORAGE_BUCKET,
-  messagingSenderId: process.env.REACT_APP_MESSAGING_SENDER_ID,
-  appId: process.env.REACT_APP_APP_ID,
-  measurementId: process.env.REACT_APP_MEASUREMENT_ID
+  apiKey:"AIzaSyA-c9P1_EipelmD1OBiKwumCH6lBZbDEAM",
+  authDomain: "amazo-nclonereact.firebaseapp.com",
+  projectId: "amazo-nclonereact",
+  storageBucket: "amazo-nclonereact.appspot.com",
+  messagingSenderId: "967321908855",
+  appId: "1:967321908855:web:7c98021e6715212268f872",
+  measurementId: "G-RJ3NEF479D"
   };
   // Initialize Firebase
   const firebaseApp=firebase.initializeApp(firebaseConfig);
