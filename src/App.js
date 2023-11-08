@@ -40,7 +40,7 @@ function App() {
           <Route path="/login">
            <Login/>
           </Route>
-          <Route exact path="/home">
+          <Route exact path="/Amazon-clone">
             <Header/>
             <Home/>
           </Route>
